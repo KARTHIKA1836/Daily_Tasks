@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: white;
+  box-shadow: 0 2px 5px #ddd;
+}
+
+.logo {
+  color: orange;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-btn {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 6px;
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f172a;
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 40px;
+}
+
+.hero-info {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.hero-info span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.order-btn {
+  background: orange;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-img {
+  width: 250px;
+}
+
+/* PRODUCT CARD */
+
+.product-card {
+  width: 200px;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ddd;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-btn {
+  background: orange;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+}
