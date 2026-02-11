@@ -12,7 +12,8 @@ export default function RestaurantPage() {
     <>
       <Navbar />
 
-      <div className="container mt-4">
+      <div className="container-fluid mt-4 px-5">
+
         <HeroSection />
 
         <CategoryTabs />

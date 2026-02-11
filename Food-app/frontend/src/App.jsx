@@ -1,8 +1,14 @@
-import RestaurantPage from "./pages/RestaurantPage";
-import "./App.css";
-
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import CategoryTabs from "./components/CategoryTabs";
 function App() {
-  return <RestaurantPage />;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <CategoryTabs />
+    </>
+  );
 }
 
 export default App;
