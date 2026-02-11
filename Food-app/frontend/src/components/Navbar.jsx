@@ -1,7 +1,6 @@
 function Navbar() {
   return (
     <>
-      {/* Promo Strip */}
       <div className="bg-light py-2 px-4 d-flex justify-content-between small">
         <span>
           Get 5% Off your first order, 
@@ -13,8 +12,6 @@ function Navbar() {
           <span className="text-warning ms-1">Change location</span>
         </span>
       </div>
-
-      {/* Main Navbar */}
       <nav className="navbar navbar-expand-lg bg-white shadow-sm px-5 py-3">
         <a className="navbar-brand fw-bold fs-3">
           Order<span className="text-warning">UK</span>

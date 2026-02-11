@@ -1,10 +1,19 @@
-export default function ProductCard({ product }) {
+function ProductCard({ img, name, price }) {
   return (
-    <div className="product-card shadow-sm">
-      <img src={product.image} />
-      <h6>{product.name}</h6>
-      <p>£{product.price}</p>
-      <button className="btn btn-warning rounded-circle">+</button>
+    <div className="card h-100 shadow-sm border-0">
+      <img src={img} className="card-img-top p-3" />
+
+      <div className="card-body">
+        <h6 className="fw-bold">{name}</h6>
+        <p className="text-muted small">Classic meal combo</p>
+        <b>GBP {price}</b>
+      </div>
+
+      <button className="btn btn-warning rounded-circle position-absolute bottom-0 end-0 m-3">
+        +
+      </button>
     </div>
   );
 }
+
+export default ProductCard;
