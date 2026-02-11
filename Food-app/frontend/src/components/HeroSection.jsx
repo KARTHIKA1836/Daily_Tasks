@@ -1,22 +1,19 @@
-import { Star, Clock } from "lucide-react";
-import "../App.css";
-
-function HeroSection() {
+export default function HeroSection() {
   return (
-    <div className="hero">
-      <div className="hero-text">
-        <h2>McDonald's East London</h2>
-
-        <div className="hero-info">
-          <span><Star /> 3.4 Rating</span>
-          <span><Clock /> 20–30 mins</span>
-        </div>
-
-        <button className="order-btn">Order Now</button>
+    <div className="hero-box d-flex justify-content-between align-items-center">
+      <div>
+        <p className="hero-tag">I’m lovin’ it</p>
+        <h1>McDonald's East London</h1>
+        <p>Minimum Order £10 • Delivery 20–30 mins</p>
+        <button className="btn btn-warning rounded-pill px-4">
+          Open until 12:00 AM
+        </button>
       </div>
-      <img src="https://i.imgur.com/2nCt3Sbl.png" className="hero-img" alt="food" />
+
+      <img
+        src="https://images.unsplash.com/photo-1550547660-d9450f859349"
+        className="hero-img"
+      />
     </div>
   );
 }
-
-export default HeroSection;

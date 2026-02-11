@@ -1,22 +1,10 @@
-import { Plus } from "lucide-react";
-import "../App.css";
-
-function ProductCard({ name, price, image }) {
+export default function ProductCard({ product }) {
   return (
     <div className="product-card">
-      <img src={image} alt={name} />
-
-      <h4>{name}</h4>
-      <p>Fresh and delicious meal</p>
-
-      <div className="price-row">
-        <span>${price}</span>
-        <button className="add-btn">
-          <Plus />
-        </button>
-      </div>
+      <img src={product.image} />
+      <h4>{product.name}</h4>
+      <p>£{product.price}</p>
+      <button>+</button>
     </div>
   );
 }
-
-export default ProductCard;
