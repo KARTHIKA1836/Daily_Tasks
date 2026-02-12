@@ -56,7 +56,6 @@ function InfoMapSection() {
           style={{ border: 0 }}
         />
 
-        {/* LOCATION CARD */}
         <div
           className="position-absolute top-50 start-0 translate-middle-y bg-dark text-white p-4 rounded-4 shadow ms-4"
           style={{ maxWidth: "260px" }}

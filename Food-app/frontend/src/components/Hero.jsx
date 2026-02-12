@@ -4,9 +4,8 @@ function Hero() {
 
       <div className="row bg-dark text-white rounded-4 p-5 align-items-center">
 
-        {/* LEFT SIDE */}
         <div className="col-md-6">
-          <p className="text-warning fw-semibold">I'm lovin' it!</p>
+          <p className="text-warning fw-semibold">I'm loving it!</p>
 
           <h1 className="fw-bold mb-3">
             McDonald's East London
@@ -27,7 +26,6 @@ function Hero() {
           </button>
         </div>
 
-        {/* RIGHT SIDE */}
         <div className="col-md-6 text-center position-relative">
 
           <img
@@ -36,8 +34,6 @@ function Hero() {
   alt="burger"
 />
 
-
-          {/* Rating Box */}
           <div className="bg-white text-dark rounded p-2 position-absolute bottom-0 end-0 shadow">
             <h4 className="mb-0">3.4 ⭐</h4>
             <small>1,360 reviews</small>

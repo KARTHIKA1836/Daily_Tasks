@@ -180,3 +180,10 @@ body {
 .section-title {
   margin: 40px 0 20px;
 }
+.burger-img {
+  width: 100%;       /* Takes up the full width of the parent container */
+  height: auto;      /* Maintains the original aspect ratio */
+  max-width: 600px;  /* Prevents it from getting too large on big screens */
+  display: block;    /* Removes bottom whitespace */
+  object-fit: cover; /* Ensures the image fills the area if you set a fixed height */
+}

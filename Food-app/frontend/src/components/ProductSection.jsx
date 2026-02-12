@@ -2,10 +2,10 @@ import ProductCard from "./ProductCard";
 
 function ProductSection({ title }) {
   const products = [
-    { name: "Classic Burger Meal", price: "23.30", img: "https://images.pexels.com/photos/6205791/pexels-photo-6205791.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Burger & Fries", price: "21.30", img: "https://images.pexels.com/photos/6205791/pexels-photo-6205791.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Combo Special", price: "25.10", img: "https://images.pexels.com/photos/6205791/pexels-photo-6205791.jpeg?auto=compress&cs=tinysrgb&w=600" },
-    { name: "Meal Box", price: "22.80", img: "https://images.pexels.com/photos/6205791/pexels-photo-6205791.jpeg?auto=compress&cs=tinysrgb&w=600" }
+    { name: "Classic Burger Meal", price: "230.30", img: "https://images.pexels.com/photos/6205791/pexels-photo-6205791.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Burger & Fries", price: "210.30", img: "https://images.pexels.com/photos/6205791/pexels-photo-6205791.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Combo Special", price: "250.10", img: "https://images.pexels.com/photos/6205791/pexels-photo-6205791.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Meal Box", price: "150.80", img: "https://images.pexels.com/photos/6205791/pexels-photo-6205791.jpeg?auto=compress&cs=tinysrgb&w=600" }
   ];
 
   return (
