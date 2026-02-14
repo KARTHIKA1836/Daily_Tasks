@@ -1,0 +1,47 @@
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
+.landing-page h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+.landing-page p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #666;
+}
+.landing-page button{
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}.landing-page button:hover{
+    background-color: #0056b3;
+}
+.landing-page .footer{
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.9em;
+    color: #999;
+}
+.start-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #d44141;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.start-btn:hover {
+    background-color: #0056b3;
+}
